@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Twitter NBA Posts</title>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif] -->
+
+    <style>
+        body{
+            font: 12px sans-serif;
+            color: #222;
+            padding: 15px;
+        }
+        div#tweets{
+            width: 500px;
+            height: 500px;
+            overflow: scroll;
+            border: 1px solid #999;
+            padding: 15px;
+        }
+        div.post{
+            margin: 10px 0;
+            background: #EEE;
+            padding: 5px;
+        }
+        div.username{
+            padding: 5px 0;
+        }
+    </style>
+</head>
+<body>
+<h1>Twitter NBA Posts</h1>
+<div id="tweets"></div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+
+    var searchTerm = "NBA";
+    var baseUrl = "http://search.twitter.com/search.json?q=";
+    $.getJSON(baseUrl + searchTerm + "&callback=?", function(data) {
+        $.each(data.results, function() {
+            $('<div class="post"></div>')
+                .hide()
+                .append('<img class="profile_pic" src="' + this.profile_image_url + '" />')
+                .append('<div class="username"><a href="http://www.twitter.com/' + this.from_user + '">' + this.from_user + '</a></div>')
+                .append('<div class="tweet">' + this.text + '</div>')
+                .appendTo('#tweets')
+                .fadeIn();
+        });
+    });
+
+});
+</script>
+</body>
+</html>

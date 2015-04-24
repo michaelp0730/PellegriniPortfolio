@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div .content{
+	padding: 10px;
+}
+
+div .content img{
+	float:right;
+	border:1px solid #21455b;
+	margin:0 0 5px 10px;
+	padding:0;
+}

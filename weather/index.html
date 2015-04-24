@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pellegrini Weather</title>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif] -->
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div id="theApp">
+
+    <div id="input">
+        <form id="zipForm">
+            <label for="zip">Zip code:</label>
+            <input type="text" id="zip">
+            <input type="submit" id="submit" value="Go">
+        </form>
+        <div id="error">Please enter a valid 5&ndash;digit zip code</div>
+    </div>
+
+    <div id="icon_container">
+        <img id="icon" src="" alt="">
+        <p id="conditions"></p>
+    </div>
+
+    <h1 id="title">Location</h1>
+    <h2 id="currentTemp"></h2>
+
+</div>
+
+<div id="wunderground">
+    Weather data provided by:
+    <img src="img/wundergroundLogo_white_horz.jpg" alt="Wunderground.com">
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="js/weather.js"></script>
+</body>
+</html>

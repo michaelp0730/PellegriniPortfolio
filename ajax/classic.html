@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX Fundamentals</title>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif] -->
+
+    <style>
+        body {
+            font-size: small;
+            font-family: sans-serif;
+            color: #222;
+        }
+    </style>
+
+</head>
+<body>
+
+<script>
+    // If IE is used, create a wrapper for the XMLHttpRequest object
+    if (typeof XMLHttpRequest == "undefined") {
+        XMLHttpRequest = function() {
+            // IE uses an ActiveXObject to create a new XMLHttpRequest object
+            return new ActiveXObject(
+                    // IE 5 uses a different XMLHTTP object from IE 6
+                    navigator.userAgent.indexOf("MSIE 5") >= 0 ?
+                            "Microsoft.XMLHTTP" : "Msxml2.XMLHTTP"
+            );
+        };
+    }
+
+    // Create the request object
+    var xml = new XMLHttpRequest();
+
+    // Open the socket
+    xml.open("GET", "/some/url.cgi", true);
+
+    // Establish the connection to the server and send any additional data
+    xml.send();
+
+
+    // A simple object holding key/value pairs
+    {
+        name: "Michael",
+        last: "Pellegrini",
+        city: "Bellevue",
+        zip : 98008
+    }
+
+    // Serialized form
+    name=Michael&last=Pellegrini&city=Bellevue&zip=98008
+
+    // Another set of data, with multiple values
+    [
+        { name: "name", value: "Michael" },
+        { name: "last", value: "Pellegrini" },
+        { name: "lang", value: "JavaScript" },
+        { name: "lang", value: "PHP" },
+        { name: "lang", value: "Java" }
+    ]
+
+    // And the serialized form of that data
+    name=Michael&last=Pellegrini&lang=JavaScript&lang=PHP&lang=Java
+
+    // Finally lets find some input elements (using the id() method that we made in the DOM chapter
+    [
+        id("name"),
+        id("last"),
+        id("username"),
+        id("password")
+    ]
+</script>
+</body>
+</html>

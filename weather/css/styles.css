@@ -1,0 +1,72 @@
+body{
+    font-family: "Helvetica Neue", Tahoma, Verdana, sans-serif;
+    font-size: small;
+    color: #333;
+    background-color: #EEE;
+    margin: 0;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 32px;
+    padding: 0 0 15px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 26px;
+    padding: 0 0 15px;
+    font-weight: 500;
+}
+
+#theApp{
+    width: 450px;
+    height: auto;
+    min-height: 200px;
+    padding: 15px;
+    margin: 0;
+    border-radius: 5px;
+    border: 1px solid #999;
+    text-align: right;
+    background-color: white;
+}
+
+#date{ float: right; }
+
+#input{
+    width: 250px;
+    text-align: left;
+}
+
+#zip{
+    width: 70px;
+    border-radius: 5px;
+}
+
+#error{
+    color: red;
+    font-style: italic;
+    font-size: smaller;
+    visibility: hidden;
+
+}
+
+#icon_container{
+    width: 160px;
+    height: auto;
+    min-height: 150px;
+    text-align: center;
+    font-style: italic;
+    float: left;
+    margin: 10px 20px 20px 0;
+}
+
+#wunderground{
+    width: 480px;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    margin-top: 15px;
+}
+
+#wunderground img { margin: 5px auto 0; }

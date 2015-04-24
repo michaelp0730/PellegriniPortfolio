@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#nav ul li{
+	font-family: Geneva, Verdana, sans-serif;
+	font-size: 14px;
+	padding: 0;
+	margin: 6px 0;
+}

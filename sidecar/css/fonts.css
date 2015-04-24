@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font_face{
+	font-family: 'Bellevue';	
+	src: url('../fonts/Bellevue.eot');
+	src: url('../fonts/Bellevue.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Bellevue.woff') format('woff'),
+		 url('../fonts/Bellevue.ttf') format('truetype'),
+		 url('../fonts/Bellevue.svg#Bellevue') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

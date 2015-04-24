@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'VictoryNeue-Oblique';
+    src: url('../fonts/VictoryNeue-Oblique.eot');
+    src: url('../fonts/VictoryNeue-Oblique?#iefix') format('embedded-opentype'),
+         url('../fonts/VictoryNeue-Oblique.woff') format('woff'),
+         url('../fonts/VictoryNeue-Oblique.ttf') format('truetype'),
+         url('../fonts/VictoryNeue-Oblique.svg#VictoryNeue-Oblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'VictoryNeueLight';
+    src: url('../fonts/VictoryNeueLight.eot');
+    src: url('../fonts/VictoryNeueLight?#iefix') format('embedded-opentype'),
+         url('../fonts/VictoryNeueLight.woff') format('woff'),
+         url('../fonts/VictoryNeueLight.ttf') format('truetype'),
+         url('../fonts/VictoryNeueLight.svg#VictoryNeueLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AbrazoScriptSSiNormal';
+    src: url('../fonts/AbrazoScriptSSiNormal.eot');
+    src: url('../fonts/AbrazoScriptSSiNormal?#iefix') format('embedded-opentype'),
+         url('../fonts/AbrazoScriptSSiNormal.woff') format('woff'),
+         url('../fonts/AbrazoScriptSSiNormal.ttf') format('truetype'),
+         url('../fonts/AbrazoScriptSSiNormal.svg#AbrazoScriptSSiNormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

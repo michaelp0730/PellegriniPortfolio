@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#wrapper{
+	position:relative;
+	top:-10px;
+}
+
+#top_orange_bar{
+	position:relative;
+	top:10px;
+}
+
+#block1, #block2, #block3{
+	position:relative;
+	top:-5px;
+}

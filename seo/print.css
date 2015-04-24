@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color:#FFF;
+	color:#000;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:medium;
+	margin:auto;
+	padding:inherit;
+	width:100%;
+}
+
+img, #header, #header_left, #blocks, #column_left, #footer{
+	display:none;
+}
+
+h1{
+	font-size:2em;
+	color:#000;
+}
+
+h2{
+	font-size:1.75em;
+	color:#000;
+}
+
+#wrapper{
+	width:100%;
+	padding:0;
+	margin:auto;
+}
+
+p a:after{
+	content: " <" attr(href) "> ";
+}

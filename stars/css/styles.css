@@ -1,0 +1,24 @@
+body {
+    font-size: medium;
+    font-family: sans-serif;
+    color: #222;
+    margin: 0;
+    padding: 15px;
+}
+
+ol#starsList {
+    list-style-type: none;
+}
+
+ol#starsList li {
+    display: inline-block;
+}
+
+ol#starsList:hover {
+    cursor: pointer;
+}
+
+#starsNum {
+    font-size: small;
+    font-style: italic;
+}

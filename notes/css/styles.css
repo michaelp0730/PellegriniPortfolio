@@ -1,0 +1,134 @@
+section#theApp, section#theNote {
+    margin: 15px;
+    background-color: #EEE;
+    width: 470px;
+    height: auto;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    float: left;
+}
+
+section#theNote { display: none; margin-left: 0; }
+
+section#theApp header, section#theNote header {
+    background-color: #CCC;
+    padding: 5px;
+    text-align: center;
+    -moz-border-radius-topleft: 10px;
+    -webkit-border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+section#theNote p {
+    margin: 10px;
+}
+
+section#theApp footer {
+    background-color: #293a4b;
+    color: #EEE;
+    text-align: center;
+    padding: 5px;
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+section#theNote footer {
+    background-color: #CCC;
+    text-align: right;
+    padding: 5px;
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+section#theApp footer h6 {
+    margin: 0;
+    padding: 0;
+}
+
+input#title {
+    display: block;
+    width: 435px;
+    margin: 10px;
+}
+
+textarea#desc {
+    display: block;
+    width: 435px;
+    margin-left: 10px;
+}
+
+button#cancel {
+    margin: 0 5px 0 10px;
+}
+
+h5 {
+    margin: 5px;
+    text-align: center;
+}
+
+ul#notesList {
+    list-style: none;
+    width: 445px;
+    height: auto;
+    margin: 0 0 10px 10px;
+    padding: 0;
+}
+
+ul#notesList li {
+    margin: 0;
+    padding: 5px;
+    display: block;
+    background-color: #FFF;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+ul#notesList li:first-child {
+    border-top: 1px solid #999;
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+ul#notesList li:last-child {
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+ul#notesList li:hover {
+    background-color: #EEE;
+}
+
+ul#notesList li:first-child:hover {
+    background-color: #FFF;
+}
+
+.float-right { float: right; }
+
+.margin-top3 { margin-top: 3px; }
+
+#rmvInlineNote {
+    cursor: pointer;
+    z-index: 5;
+}

@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CSS Document */
+
+img{ border: none;}
+
+#social_media_container{
+	width: 160px;
+	margin: -120px 0 0 0;
+	padding: 0 0 0 40px;
+	float: right;
+}

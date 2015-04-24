@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'CharlemagneStd-Bold';
+	src: url('../fonts/CharlemagneStd-Bold.eot');
+	src: url('../fonts/CharlemagneStd-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CharlemagneStd-Bold.woff') format('woff'),
+         url('../fonts/CharlemagneStd-Bold.ttf') format('truetype'),
+         url('../fonts/CharlemagneStd-Bold.svg#HoneyScriptLight') format('svg');
+	font-weight: normal;
+    font-style: normal;	
+}

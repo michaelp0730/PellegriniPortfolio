@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>UI test</title>
+<link rel="stylesheet" href="css/custom-theme/jquery-ui-1.8.16.custom.css" type="text/css" />	
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/mylibs/jquery-ui-1.8.16.custom.min.js"></script>
+<script type="text/javascript">
+			$(function(){
+
+				// Accordion
+				$("#accordion").accordion({ header: "h3" });
+	
+				// Tabs
+				$('#tabs').tabs();
+
+				// Datepicker
+				$('#datepicker').datepicker({
+					inline: true
+				});
+				
+				//hover states on the static widgets
+				$('#dialog_link, ul#icons li').hover(
+					function() { $(this).addClass('ui-state-hover'); }, 
+					function() { $(this).removeClass('ui-state-hover'); }
+				);
+				
+			});
+</script>
+</head>
+
+<body>
+<div id="tabs">
+            <ul>
+            	<li><a href="#appetizers">Appetizers</a></li>
+                <li><a href="#salads">Salads</a></li>
+                <li><a href="#pizza">Pizza</a></li>
+                <li><a href="#pasta">Pasta</a></li>
+                <li><a href="#dessert">Dessert</a></li>
+            </ul>
+            	<div id="appetizers">
+                <h2>Appetizers</h2>
+                <strong>Prosciutto &amp; Melon</strong> &ndash; Thinly sliced Italian prosciutto wrapped around fresh cantaloupe and honeydew melon
+                <p><strong>Bruschetta</strong> &ndash; Crostini topped with fresh diced tomatoes, basil, olive oil, garlic and balsamic vinegar</p>
+                <p><strong>Calamari</strong> &ndash; Sauteed with olive oil, garlic, sherry, mushrooms, and spinach</p>
+                <p><strong>Antipasto</strong> &ndash; Prosciutto, Salami, Mozzarella, Provolone, grilled Portabello mushrooms, roasted sweet red peppers, artichoke hearts, kalamatta olives, extra virgin olive oil, balsamic vinegar</p>
+                <p><strong>Sauteed Mussels</strong> &ndash; Cream, thyme, garlic, shallots</p>
+                <p><strong>Steamed Clams</strong> &ndash; White wine, garlic, butter, lemon</p>
+                </div>
+</div>
+</body>
+</html>

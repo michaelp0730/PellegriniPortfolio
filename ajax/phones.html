@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get Phone Data with AJAX!</title>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif] -->
+
+    <style>
+        body{
+            font: 12px sans-serif;
+            color: #222;
+            padding: 15px;
+        }
+        .snippet{ list-style-type: none; }
+    </style>
+</head>
+<body>
+    <h1>Phone Data</h1>
+    <div id="phones_container"></div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+
+    $.ajax({
+        type: "GET",
+        url: "json/phones.json",
+        dataType: "json",
+        success: function(data) {
+            var phones = "<ul>";
+
+            $.each(data, function(i, n) {
+                phones += "<li>"
+                        + n["name"]
+                            + "<li class=\"snippet\">" + n["snippet"] + "</li>"
+                        + "</li>";
+            });
+
+            phones += "</ul>";
+            $('#phones_container').append(phones);
+        }
+    });
+
+
+});
+</script>
+</body>
+</html>

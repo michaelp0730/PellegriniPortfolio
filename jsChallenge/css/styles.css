@@ -1,0 +1,35 @@
+/* Custom CSS Styles */
+header, footer {
+	width: 100%;
+	height: 40px;
+	background-color: #02326a;
+	color: white;
+	font-weight: 600;
+	padding: 0;
+	margin: 0;
+}
+
+footer { position: absolute; bottom: 0; }
+
+header p, footer p { padding: 10px; }
+
+p { padding: 20px 0 0; }
+
+#center_box {
+	width: 66%;
+	background-color: #EEE;
+	border: 1px solid gray;
+	border-radius: 20px;
+	position: absolute;
+	left: 50%;
+	margin: 20px 0 20px -33%;
+	padding: 0;
+}
+
+#center_box section { margin-left: 20px; }
+
+#center_box section:first-child { margin-top: 20px; }
+
+#center_box section:last-child { margin-bottom: 20px; }
+
+#names_list li { width: 175px; cursor: pointer; }

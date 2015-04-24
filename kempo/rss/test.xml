@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" >
+  <channel>
+    <title>[Title]</title>
+    <link>[Link]</link>
+    <description>[Description]</description>
+    <copyright>[Copyright notice]</copyright>
+    <managingEditor>[Email]</managingEditor>
+    <pubDate>Wed, 07 Sep 2011 23:36:15 PDT</pubDate>
+    <generator>FeedMe, by the Nowhere Man (http://thenowhereman.com/hacks)</generator>
+    <item>
+      <title>Testing</title>
+      <pubDate>Wed, 07 Sep 2011 23:31:01 PDT</pubDate>
+      <link>http://www.pellegrinipage.com/portfolio/kempo/rss</link>
+      <guid isPermaLink="false">1315463461</guid>
+      <description>Testing out &lt;i&gt;RSS&lt;/i&gt;...</description>
+    </item>
+  </channel>
+</rss>

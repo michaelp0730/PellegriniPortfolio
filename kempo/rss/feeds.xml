@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Kempo Training Systems RSS Feed</title>
+		<link>http://www.kempotrainingsystems.com</link>
+    	<description>Kempo Training Systems is a mixed martial arts school located in Ocean Beach, San Diego, CA.</description>
+    	<copyright>Copyright 2011 Kempo Training Systems</copyright>
+    	<managingEditor>michael@pellegrinipage.com</managingEditor>
+    	<pubDate>Wed, 07 Sep 2011 23:36:15 PDT</pubDate>
+			
+			<item>
+      		<title>Final Test</title>
+      		<pubDate>Wed, 07 Sep 2011 23:54:23 PDT</pubDate>
+      		<link>http://www.pellegrinipage.com/portfolio</link>
+      		<guid isPermaLink="false">1315464863</guid>
+      		<description>&lt;p&gt;This package is perfect for someone who wants their own custom blog or just needs a simple site without dynamic elements. 'Dynamic elements' are pieces on your website that animate, change appearance, or react to changing conditions. They require more code and are more difficult to develop, but if you're not interested in this kind of stuff, then this package is exactly what you need. These types of sites are easy to maintain without much knowledge of HTML.&lt;/p&gt;&lt;br&gt;    &lt;p&gt;Your website will be confined to a single page but can scroll down as far as you like. It can contain links to other sites as well as a contact link to your email address. If you don't need any images on your site, the cost of this package is $60. If you do want images on the site and you can supply me with the images (maximum of 5), the price is $80. If you need custom images and design, &lt;a href=&quot;contact.html&quot;&gt;please contact me&lt;/a&gt; for a price quote.&lt;/p&gt;</description>
+    		</item>
+
+			<item>
+      		<title>Testing Again!!</title>
+      		<pubDate>Wed, 07 Sep 2011 23:49:21 PDT</pubDate>
+      		<link>[Link]</link>
+      		<guid isPermaLink="false">1315464561</guid>
+      		<description>Another &lt;b&gt;RSS&lt;/b&gt; test.</description>
+    		</item>
+
+			<item>
+      		<title>Testing</title>
+      		<pubDate>Wed, 07 Sep 2011 23:46:01 PDT</pubDate>
+      		<link>http://www.pellegrinipage.com/portfolio/kempo/rss/feeds.xml</link>
+      		<guid isPermaLink="false">1315463461</guid>
+      		<description>Testing out &lt;i&gt;RSS&lt;/i&gt;...</description>
+    		</item>
+	</channel>
+</rss>

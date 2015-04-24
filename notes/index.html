@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notekeeper!</title>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif] -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<section id="theApp">
+    <header><h1>Notekeeper</h1></header>
+
+    <form id="notesForm">
+        <input type="text" id="title" placeholder="Note title">
+        <textarea id="desc" placeholder="Note description"></textarea>
+        <button id="cancel">Cancel Note</button>
+        <button id="submit">Add Note</button>
+    </form>
+
+    <ul id="notesList"></ul>
+
+    <footer><h6>Copyright &copy; <span id="year"></span> PellegriniPortfolio.com | All Rights Reserved</h6></footer>
+</section>
+
+
+<section id="theNote"></section>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/date.js"></script>
+<script src="js/notes.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#theApp').notes();
+    });
+</script>
+</body>
+</html>
